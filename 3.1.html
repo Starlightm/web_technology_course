@@ -1,0 +1,82 @@
+<!-- Задача5: написать функцию, выводящую в диалоговом окне текст и переменную.
+ Например, «Привет, Алевтина». Где «Алевтина» — это внешняя переменная. -->
+<!-- Задание №6 - вывести на экран в диалоговом окне текст с сообщением “Вы уверены?” -->
+<!-- и кнопками «ОК» , «Отмена».  -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        //5 const name = 'Алевтина'
+        // function showName() {
+        //     const message = 'Привет ' + name
+        //     alert(message)
+        // }
+        // showName()
+
+
+        // if (confirm('Вы уверены?')) {
+        //      alert('Отлично, что Вы уверены!');
+        // } else {
+        //     ('Жаль, что Вы не уверены');   
+        // 
+
+        // const a = +prompt('Введите число');
+
+        // if (a >= 200){
+        //     alert('a > 200');
+        // }else if (a > 150) {
+        //     alert ('a > 150');
+        // } else if (a > 100){
+        //     alert ('a > 100')
+        // } else {
+        //     alert('a - непонятное число');
+        // }
+
+         let age = prompt('Возраст');
+
+        // if (age == 18) {
+        //     alert('Вы совершеннолетний, все можно!');
+        // } else if (age == 10) {
+        //     alert('Вам надо учить уроки!');
+        // } else if (age == 30) {
+        //     alert('Ложитесь спать, завтра на работу');
+        // } else {
+        //     alert('Мы не знаем что Вам делать');
+        // } 
+
+        switch (age) {
+            case 18:
+              alert('Вы совершеннолетний, все можно!');
+                break;
+            case 10:
+                alert('Вам надо учить уроки!');
+                break;
+            case 30:
+                alert('Ложитесь спать, завтра на работу');
+                break;
+            default:
+            alert('Мы не знаем что Вам делать');
+                break;
+
+        }
+
+ 
+
+    </script>
+
+
+    </script>
+</body>
+
+</html>
